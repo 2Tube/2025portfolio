@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2Tube | Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            color: white;
+            overflow-x: hidden;
+        }
+        #top {
+            width: 100vw;
+            height: 100vh;
+            text-align: center;
+            padding: 10px;
+            background-color: #000000;
+        }
+        #top img {
+            max-width: 50%;
+            height: auto;
+        }
+        #largeHi {
+            font-size: 48px;
+            margin-top: 20px;
+        }
+        .content {
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 16vh;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 100vw;
+        }
+        h2 {
+            font-weight: lighter;
+        }
+        .projectcard {
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            padding: 10px;
+            border: 2px solid white;
+        }
+        .projectcard img {
+            max-height: 100px;
+            width: auto;
+            border-radius: 8px;
+        }
+        #projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .green {
+            border-color: green;
+        }
+        .yellow {
+            border-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div id="top">
+        <img src="./Logos/1.png" alt="2Tube Logo" />
+        <p id="largeHi">Hi!, You have reached my portfolio.</p>
+        <p>By :&nbsp; Muzafar Shirzad</p>
+    </div>
+
+    <div class="content">
+        <div>
+            <h1>About Me</h1>
+            <h2>I am a motivated teenage web developer. I go by 2Tube.<br>I have made a few projects benefiting and entertained my classmates and friends.<br>Most of the time I make purposeful website but sometimes I just like to goof and tinker with coding.</h2>
+            <h2>Right now only a few of my projects are online since i have turned of the database for the old ones.<br>Try clicking on the ones that are <a style="color: green;">Green</a>.<br>Github is blocked so some might not work. Those projects will be <a style="color: yellow;">yellow</a>.</h2>
+        </div>
+
+        <div>
+            <h1>My Projects</h1>
+            <div id="projects">
+                <div class="projectcard"><img src="./Logos/2.png" alt="Project 1"></div>
+                <div class="projectcard yellow"><a href="https://2tube.github.io/educraft/" target="_blank"><img src="./Logos/b.webp" alt="Project 2"></a><h1>EduCraft Portal</h1></div>
+                <div class="projectcard yellow"><a href="https://2tube.github.io/rg/" target="_blank"><img src="./Logos/banner.png" alt="Project 3"></a></div>
+                <div class="projectcard"><img src="./Logos/clearLogo.png" alt="Project 4"></div>
+                <div class="projectcard yellow"><a href="https://2tube.github.io/Crow-Xcfbhidden/" target="_blank"><img src="./Logos/Ico.png" alt="Project 1"></a><h1>Crow-X</h1></div>
+                <div class="projectcard green"><a href="https://qwertywavesmp.vercel.app/" target="_blank"><img src="./Logos/logi.png" alt="Project 2"></a></div>
+                <div class="projectcard green"><a href="https://qwertywave.vercel.app/" target="_blank"><img src="./Logos/loginLogo.png" alt="Project 3"></a></div>
+                <div class="projectcard yellow"><a href="https://2tube.github.io/gmp/" target="_blank"><img src="./Logos/maxwell-cat.gif" alt="Project 4"></a><h1>GMP Games/PawHub</h1></div>
+                <div class="projectcard"><img src="./Logos/newlog.png" alt="Project 1"></div>
+                <div class="projectcard"><img src="./Logos/Orbit (600 x 200 px).jpg" alt="Project 2"></div>
+            </div>
+        </div>
+        <div></div>
+        <div>
+            <h1>Contact Me</h1>
+            <h2>If you would like to contact me, please email me at: muzafar.shirzad923@cfbmail.com.</h2>
+        </div>
+        <div></div>
+    </div>
+</body>
+</html>
